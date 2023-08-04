@@ -1,47 +1,28 @@
 .img_section {
   width: 50%;
-  padding: 0px 0px 0rem 3rem;
-  width: 700px;
-  height: 800px;
-  background: url("../images/Rectangle\ 11.png"),
-    lightgray 50% / cover no-repeat;
-  box-shadow: 7px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  background-position: center;
-}
-
-.img_section p {
-  color: white;
-  display: flex;
-
-  margin-top: 70%;
-  color: #fff;
+  background-image: url("../images/Rectangle 11.png");
+  //   width: 800px;
   height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  color: white;
+}
+.img_section p {
   font-size: 25px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  padding-top: 16rem;
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  margin: 0 auto;
 }
-.abc {
-  color: #fff;
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.8px;
-}
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .img_section {
-    padding: 0;
-    /* width: 500px; */
-    /* padding: 0px 3rem; */
+    width: 90%;
   }
-  .img_section p {
-    font-size: 15px;
-    color: white;
-    width: 70%;
-    margin-left: 1rem;
-    /* margin-top: 90%; */
-    margin-top: 100%;
+}
+@media screen and (max-width: 425px) {
+  .img_section {
+    width: 100%;
   }
 }
